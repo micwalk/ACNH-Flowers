@@ -1,0 +1,869 @@
+All ACNH rose gene ambiguous paths starting from seeds.
+Output from script authored by Michael Walker (mwalk10@gmail.com)
+
+Breeding target: 0000 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0100 yellow X 0100 yellow -> 0000 white     (25%) Total Avg. Spawns: 7 Unique 
+Breeding target: 0001 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 0100 yellow -> 0000 white     (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0000 white  X 1002 white  -> 0001 white     (50%) Total Avg. Spawns: 13 Unique 
+Breeding target: 0002 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+Breeding target: 0010 - white
+  Phase 0 :  seeds -> 0010 white 
+Breeding target: 0011 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+Breeding target: 0012 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0002 white  X 0021 purple -> 0012 white     (50%) Total Avg. Spawns: 27 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0020 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+Breeding target: 0021 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0022 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0002 white  X 0021 purple -> 0012 white     (50%) Total Avg. Spawns: 27 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0012 white  X 0012 white  -> 0022 purple    (25%) Total Avg. Spawns: 31 Unique 
+Breeding target: 0100 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+Breeding target: 0101 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0200 yellow X 1002 white  -> 0101 yellow    (50%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.25%) 
+Breeding target: 0102 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0200 yellow X 1002 white  -> 0101 yellow    (50%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0002 white  X 0101 yellow -> 0102 yellow    (25%) Total Avg. Spawns: 31 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0110 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+Breeding target: 0111 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0110 white  X 0200 yellow -> 0210 yellow    (25%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0210 yellow X 1002 white  -> 0111 white     (25%) Total Avg. Spawns: 19 Unique 
+Breeding target: 0112 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0200 yellow X 1002 white  -> 0101 yellow    (50%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0101 yellow X 0220 white  -> 0211 yellow    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0002 white  X 0211 yellow -> 0112 white     (25%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0120 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0121 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0011 white  X 0220 white  -> 0121 purple    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0122 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0002 white  X 0021 purple -> 0012 white     (50%) Total Avg. Spawns: 27 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0011 white  X 0220 white  -> 0121 purple    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0012 white  X 0012 white  -> 0022 purple    (25%) Total Avg. Spawns: 31 Unique 
+  Phase 6 :  0121 purple X 0220 white  -> 0221 white     (25%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 7 :  0022 purple X 0221 white  -> 0122 purple    (50%) Total Avg. Spawns: 37 AMBIGUOUS (Penalized Prob: 0.25%) 
+Breeding target: 0200 - yellow
+  Phase 0 :  seeds -> 0200 yellow
+Breeding target: 0201 - yellow
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0200 yellow X 2101 orange -> 1201 yellow    (25%) Total Avg. Spawns: 17 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  0200 yellow X 1201 yellow -> 0201 yellow    (25%) Total Avg. Spawns: 29 AMBIGUOUS (Penalized Prob: 0.083%) 
+Breeding target: 0202 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0200 yellow X 1002 white  -> 0101 yellow    (50%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0002 white  X 0101 yellow -> 0102 yellow    (25%) Total Avg. Spawns: 31 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0102 yellow X 0102 yellow -> 0202 yellow    (25%) Total Avg. Spawns: 43 AMBIGUOUS (Penalized Prob: 0.083%) 
+Breeding target: 0210 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0110 white  X 0200 yellow -> 0210 yellow    (25%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.083%) 
+Breeding target: 0211 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0200 yellow X 1002 white  -> 0101 yellow    (50%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0101 yellow X 0220 white  -> 0211 yellow    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0212 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0200 yellow X 1002 white  -> 0101 yellow    (50%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0002 white  X 0101 yellow -> 0102 yellow    (25%) Total Avg. Spawns: 31 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0011 white  X 0220 white  -> 0121 purple    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0121 purple X 0220 white  -> 0221 white     (25%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 7 :  0102 yellow X 0221 white  -> 0212 yellow    (25%) Total Avg. Spawns: 41 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0220 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+Breeding target: 0221 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0011 white  X 0220 white  -> 0121 purple    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0121 purple X 0220 white  -> 0221 white     (25%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 0222 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  1002 white  X 1002 white  -> 0002 white     (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0002 white  X 0021 purple -> 0012 white     (50%) Total Avg. Spawns: 27 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0011 white  X 0220 white  -> 0121 purple    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0012 white  X 0012 white  -> 0022 purple    (25%) Total Avg. Spawns: 31 Unique 
+  Phase 6 :  0121 purple X 0220 white  -> 0221 white     (25%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 7 :  0022 purple X 0221 white  -> 0122 purple    (50%) Total Avg. Spawns: 37 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 8 :  0122 purple X 0122 purple -> 0222 white     (25%) Total Avg. Spawns: 41 Unique 
+Breeding target: 1000 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1000 red       (25%) Total Avg. Spawns: 7 Unique 
+Breeding target: 1001 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+Breeding target: 1002 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+Breeding target: 1010 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+Breeding target: 1011 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2002 pink   -> 1011 pink     (100%) Total Avg. Spawns: 6 Unique 
+Breeding target: 1012 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 5 :  0011 white  X 2002 pink   -> 1012 white     (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 1020 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0020 purple X 1010 red    -> 1020 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 1021 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2002 pink   -> 1011 pink     (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0020 purple X 1011 pink   -> 1021 pink    (12.5%) Total Avg. Spawns: 22 AMBIGUOUS (Penalized Prob: 0.062%) 
+Breeding target: 1022 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  2002 pink   X 2011 red    -> 2012 pink      (25%) Total Avg. Spawns: 22 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0021 purple X 2012 pink   -> 1022 purple    (25%) Total Avg. Spawns: 26 Unique 
+Breeding target: 1100 - orange
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+Breeding target: 1101 - yellow
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1101 yellow    (50%) Total Avg. Spawns: 3 Unique 
+Breeding target: 1102 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  1002 white  X 2102 yellow -> 1102 yellow    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 1110 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0200 yellow X 1010 red    -> 1110 red       (25%) Total Avg. Spawns: 10 Unique 
+Breeding target: 1111 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2002 pink   -> 1011 pink     (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0200 yellow X 1011 pink   -> 1111 pink    (12.5%) Total Avg. Spawns: 14 Unique 
+Breeding target: 1112 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  1200 orange X 2102 yellow -> 2201 orange    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0021 purple X 2201 orange -> 1112 white     (25%) Total Avg. Spawns: 25 Unique 
+Breeding target: 1120 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  0020 purple X 1010 red    -> 1020 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  0220 white  X 1020 red    -> 1120 red       (50%) Total Avg. Spawns: 19 Unique 
+Breeding target: 1121 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  0220 white  X 2011 red    -> 1121 pink      (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 1122 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  0200 yellow X 1002 white  -> 0101 yellow    (50%) Total Avg. Spawns: 15 AMBIGUOUS (Penalized Prob: 0.25%) 
+  Phase 4 :  2002 pink   X 2011 red    -> 2012 pink      (25%) Total Avg. Spawns: 22 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0101 yellow X 0220 white  -> 0211 yellow    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0211 yellow X 2012 pink   -> 1122 purple  (12.5%) Total Avg. Spawns: 33 Unique 
+Breeding target: 1200 - orange
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 1201 - yellow
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0200 yellow X 2101 orange -> 1201 yellow    (25%) Total Avg. Spawns: 17 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 1202 - yellow
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0200 yellow X 2101 orange -> 1201 yellow    (25%) Total Avg. Spawns: 17 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0200 yellow X 1201 yellow -> 0201 yellow    (25%) Total Avg. Spawns: 29 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  2102 yellow X 2102 yellow -> 2202 yellow    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 5 :  0201 yellow X 2202 yellow -> 1202 yellow    (50%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.25%) 
+Breeding target: 1210 - orange
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+Breeding target: 1211 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0120 purple X 2102 yellow -> 1211 yellow    (25%) Total Avg. Spawns: 17 Unique 
+Breeding target: 1212 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  2102 yellow X 2102 yellow -> 2202 yellow    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 5 :  0011 white  X 0220 white  -> 0121 purple    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  0121 purple X 2202 yellow -> 1212 yellow    (25%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 1220 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+Breeding target: 1221 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0120 purple X 2102 yellow -> 1211 yellow    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 5 :  0220 white  X 1211 yellow -> 1221 pink    (12.5%) Total Avg. Spawns: 25 Unique 
+Breeding target: 1222 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+  Phase 5 :  0011 white  X 0220 white  -> 0121 purple    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  1220 red    X 2102 yellow -> 2211 orange    (25%) Total Avg. Spawns: 25 Unique 
+  Phase 5 :  1220 red    X 1220 red    -> 2220 blue      (25%) Total Avg. Spawns: 25 Unique 
+  Phase 6 :  0121 purple X 0220 white  -> 0221 white     (25%) Total Avg. Spawns: 33 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 6 :  2211 orange X 2220 blue   -> 2221 red       (25%) Total Avg. Spawns: 29 Unique 
+  Phase 7 :  2221 red    X 2221 red    -> 2222 white     (25%) Total Avg. Spawns: 33 Unique 
+  Phase 8 :  0221 white  X 2222 white  -> 1222 white     (50%) Total Avg. Spawns: 35 Unique 
+Breeding target: 2000 - black
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+Breeding target: 2001 - red
+  Phase 0 :  seeds -> 2001 red   
+Breeding target: 2002 - pink
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+Breeding target: 2010 - black
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  1010 red    X 2000 black  -> 2010 black     (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 2011 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 2012 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  2002 pink   X 2011 red    -> 2012 pink      (25%) Total Avg. Spawns: 22 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 2020 - black
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0020 purple X 1010 red    -> 1020 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  1020 red    X 1020 red    -> 2020 black     (25%) Total Avg. Spawns: 18 Unique 
+Breeding target: 2021 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  0020 purple X 1010 red    -> 1020 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  1020 red    X 1020 red    -> 2020 black     (25%) Total Avg. Spawns: 18 Unique 
+  Phase 5 :  2011 red    X 2020 black  -> 2021 red       (25%) Total Avg. Spawns: 26 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 2022 - pink
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  2002 pink   X 2011 red    -> 2012 pink      (25%) Total Avg. Spawns: 22 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0021 purple X 2012 pink   -> 1022 purple    (25%) Total Avg. Spawns: 26 Unique 
+  Phase 6 :  1022 purple X 1022 purple -> 2022 pink      (25%) Total Avg. Spawns: 30 Unique 
+Breeding target: 2100 - orange
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  1100 orange X 2000 black  -> 2100 orange    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 2101 - orange
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+Breeding target: 2102 - yellow
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+Breeding target: 2110 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 2 :  1100 orange X 2000 black  -> 2100 orange    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  1010 red    X 2000 black  -> 2010 black     (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  2010 black  X 2100 orange -> 2110 red       (25%) Total Avg. Spawns: 18 Unique 
+Breeding target: 2111 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 4 :  1210 orange X 2002 pink   -> 2111 red       (25%) Total Avg. Spawns: 21 Unique 
+Breeding target: 2112 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  2011 red    X 2102 yellow -> 2112 white   (12.5%) Total Avg. Spawns: 22 Unique 
+Breeding target: 2120 - black
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0020 purple X 1010 red    -> 1020 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 4 :  1020 red    X 1020 red    -> 2020 black     (25%) Total Avg. Spawns: 18 Unique 
+  Phase 5 :  1210 orange X 2020 black  -> 2120 black     (25%) Total Avg. Spawns: 22 Unique 
+Breeding target: 2121 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0100 yellow    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0100 yellow X 2001 red    -> 1001 pink      (25%) Total Avg. Spawns: 7 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1001 pink   X 2002 pink   -> 1002 white     (25%) Total Avg. Spawns: 11 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  0020 purple X 1002 white  -> 0011 white     (50%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+  Phase 4 :  2002 pink   X 2011 red    -> 2012 pink      (25%) Total Avg. Spawns: 22 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0011 white  X 0020 purple -> 0021 purple    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 5 :  0021 purple X 2012 pink   -> 1022 purple    (25%) Total Avg. Spawns: 26 Unique 
+  Phase 5 :  1220 red    X 1220 red    -> 2220 blue      (25%) Total Avg. Spawns: 25 Unique 
+  Phase 6 :  1022 purple X 2220 blue   -> 2121 red       (50%) Total Avg. Spawns: 28 Unique 
+Breeding target: 2122 - purple
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  1010 red    X 2002 pink   -> 2011 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  2002 pink   X 2011 red    -> 2012 pink      (25%) Total Avg. Spawns: 22 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 4 :  2011 red    X 2102 yellow -> 2112 white   (12.5%) Total Avg. Spawns: 22 Unique 
+  Phase 5 :  2012 pink   X 2112 white  -> 2122 purple  (12.5%) Total Avg. Spawns: 30 Unique 
+Breeding target: 2200 - orange
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  1200 orange X 1200 orange -> 2200 orange    (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+Breeding target: 2201 - orange
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  1200 orange X 2102 yellow -> 2201 orange    (25%) Total Avg. Spawns: 21 AMBIGUOUS (Penalized Prob: 0.125%) 
+Breeding target: 2202 - yellow
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  2102 yellow X 2102 yellow -> 2202 yellow    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.083%) 
+Breeding target: 2210 - orange
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2000 black     (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0020 purple X 2000 black  -> 1010 red      (100%) Total Avg. Spawns: 6 Unique 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0020 purple X 1010 red    -> 1020 red       (25%) Total Avg. Spawns: 14 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  1200 orange X 1200 orange -> 2200 orange    (25%) Total Avg. Spawns: 23 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 4 :  1020 red    X 1020 red    -> 2020 black     (25%) Total Avg. Spawns: 18 Unique 
+  Phase 5 :  1210 orange X 2020 black  -> 2120 black     (25%) Total Avg. Spawns: 22 Unique 
+  Phase 6 :  2120 black  X 2200 orange -> 2210 orange    (50%) Total Avg. Spawns: 25 Unique 
+Breeding target: 2211 - orange
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+  Phase 5 :  1220 red    X 2102 yellow -> 2211 orange    (25%) Total Avg. Spawns: 25 Unique 
+Breeding target: 2212 - yellow
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+  Phase 4 :  2102 yellow X 2102 yellow -> 2202 yellow    (25%) Total Avg. Spawns: 25 AMBIGUOUS (Penalized Prob: 0.083%) 
+  Phase 5 :  1220 red    X 2102 yellow -> 2211 orange    (25%) Total Avg. Spawns: 25 Unique 
+  Phase 5 :  1220 red    X 1220 red    -> 2220 blue      (25%) Total Avg. Spawns: 25 Unique 
+  Phase 6 :  2211 orange X 2220 blue   -> 2221 red       (25%) Total Avg. Spawns: 29 Unique 
+  Phase 7 :  2202 yellow X 2221 red    -> 2212 yellow    (50%) Total Avg. Spawns: 31 Unique 
+Breeding target: 2220 - blue
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+  Phase 5 :  1220 red    X 1220 red    -> 2220 blue      (25%) Total Avg. Spawns: 25 Unique 
+Breeding target: 2221 - red
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+  Phase 5 :  1220 red    X 2102 yellow -> 2211 orange    (25%) Total Avg. Spawns: 25 Unique 
+  Phase 5 :  1220 red    X 1220 red    -> 2220 blue      (25%) Total Avg. Spawns: 25 Unique 
+  Phase 6 :  2211 orange X 2220 blue   -> 2221 red       (25%) Total Avg. Spawns: 29 Unique 
+Breeding target: 2222 - white
+  Phase 0 :  seeds -> 0010 white 
+  Phase 0 :  seeds -> 0200 yellow
+  Phase 0 :  seeds -> 2001 red   
+  Phase 1 :  0010 white  X 0010 white  -> 0020 purple    (25%) Total Avg. Spawns: 5 Unique 
+  Phase 1 :  0010 white  X 0200 yellow -> 0110 white     (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  0200 yellow X 2001 red    -> 1100 orange    (50%) Total Avg. Spawns: 3 Unique 
+  Phase 1 :  2001 red    X 2001 red    -> 2002 pink      (25%) Total Avg. Spawns: 5 Unique 
+  Phase 2 :  0020 purple X 0110 white  -> 0120 purple    (25%) Total Avg. Spawns: 13 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  0200 yellow X 1100 orange -> 1200 orange    (25%) Total Avg. Spawns: 11 AMBIGUOUS (Penalized Prob: 0.125%) 
+  Phase 2 :  1100 orange X 2002 pink   -> 2101 orange    (25%) Total Avg. Spawns: 9 Unique 
+  Phase 3 :  0120 purple X 0120 purple -> 0220 white     (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  0120 purple X 1200 orange -> 1210 orange    (25%) Total Avg. Spawns: 17 Unique 
+  Phase 3 :  2002 pink   X 2101 orange -> 2102 yellow    (25%) Total Avg. Spawns: 13 Unique 
+  Phase 4 :  0220 white  X 1210 orange -> 1220 red       (25%) Total Avg. Spawns: 21 Unique 
+  Phase 5 :  1220 red    X 2102 yellow -> 2211 orange    (25%) Total Avg. Spawns: 25 Unique 
+  Phase 5 :  1220 red    X 1220 red    -> 2220 blue      (25%) Total Avg. Spawns: 25 Unique 
+  Phase 6 :  2211 orange X 2220 blue   -> 2221 red       (25%) Total Avg. Spawns: 29 Unique 
+  Phase 7 :  2221 red    X 2221 red    -> 2222 white     (25%) Total Avg. Spawns: 33 Unique 
+
