@@ -6,96 +6,11 @@ library(progress)
 #First load flower genotype to phenotype map.
 #AKA maps genes to colors for all flowers
 #This data grabbed from https://aiterusawato.github.io/guides/acnh/flowers.html
+#Downloaded and tranformation is in file TransformPhenotypeTable.R and saved to ACNH_PHENOTYPES_TIDY.CSV
+# RUN TransformPhenotypeTable.R FIRST to get latest data. File also in repo for ease of use.
 print("Loading phenotype file.")
-phenotypeRaw <- fread("E:/Data/My Documents/R Scripts/ACNH PHENOTYPES.csv")
-
-roseRaw <- phenotypeRaw[,1:6,with=F]
-roseColors <- melt(roseRaw, id.vars = 1:3, variable.name = 'S', value.name = 'ColorCode')
-roseColors[, S := as.numeric(str_sub(S, -1, -1))]
-roseColors[, Flower := "Rose"]
-
-nonRoseRaw <- phenotypeRaw[, c(1:3, 7:13), with=F]
-otherColors <- melt(nonRoseRaw, id.vars = 1:3, variable.name = 'Flower', value.name = 'ColorCode')
-otherColors[, S := 0]
-
-COLOR_CODE_TO_NAME <- c(
-  "WR" = "white",
-  "LR" = "purple",
-  "YR" = "yellow",
-  "RR" = "red",
-  "PR" = "pink", 
-  "OR" = "orange", 
-  "BR" = "black",
-  "UR" = "blue",
-  
-  "WT" = "white",
-  "YT" = "yellow",
-  "RT" = "red",
-  "PT" = "pink",
-  "OT" = "orange",
-  "BT" = "black",
-  "LT" = "blue",
-  
-  "WP" = "white",
-  "UP" = "blue",
-  "YP" = "yellow",
-  "RP" = "red",
-  "OP" = "orange",
-  "LP" = "purple",
-  
-  "WC" = "white",
-  "YC" = "yellow",
-  "PC" = "purple",
-  "OC" = "orange",
-  "RC" = "red",
-  "BC" = "black",
-  
-  "WL" = "white",
-  "YL" = "yellow",
-  "RL" = "red",
-  "PL" = "pink",
-  "OL" = "orange",
-  "BL" = "black",
-  
-  "WH" = "white",
-  "UH" = "blue",
-  "YH" = "yellow",
-  "RH" = "red",
-  "PH" = "pink",
-  "OH" = "orange",
-  "LH" = "purple",
-  
-  "WW" = "white",
-  "UW" = "blue",
-  "OW" = "orange",
-  "RW" = "red",
-  "PW" = "pink",
-  "LW" = "purple",
-  
-  "WM" = "white",
-  "LM" = "blue",
-  "YM" = "yellow",
-  "PM" = "pink",
-  "RM" = "red",
-  "GM" = "green"
-)
-
-allColors <- rbind(roseColors, otherColors)
-rm(roseColors); rm(otherColors)
-
-allColors[,ColorName := COLOR_CODE_TO_NAME[ColorCode]]
-allColors[, GeneString := paste0(R,Y,W,S)]
-allColors[, ColorCode := NULL]
-setcolorder(allColors, c("R","Y","W","S","GeneString","Flower","ColorName"))
-setkey(allColors, R, Y, W, S)
-
-write.csv(allColors, "E:/Data/My Documents/R Scripts/ACNH_PHENOTYPES_tidy.csv", row.names = F)
-
-bob <- fread("E:/Data/My Documents/R Scripts/ACNH_PHENOTYPES_tidy.csv")
-# 
-# #Read new file 
-# allColors <- fread("ACNH_PHENOTYPES_TIDY.CSV")
-# setkey(allColors, G1,G2,G3,G4,Flower)
+allColors <- fread("ACNH_PHENOTYPES_TIDY.CSV")
+setkey(allColors, G1,G2,G3,G4,Flower)
 
 #Helper functions for handling genes.
 #Genes basically have two representations, list and character
@@ -130,7 +45,7 @@ geneStrToList <- function(geneString) {
 #Helper functions to lookup the color of a gene
 geneListToColor <- function(gene, flower = "Rose") {
   geneSum <- lapply(gene, sum)
-  allColors[geneSum][Flower==flower, ColorName]
+  allColors[geneSum][Flower==flower, Color]
 }
 geneStrToColor <- function(gene, flower = "Rose") {
   sapply(lapply(gene, geneStrToList), geneListToColor, flower=flower)
@@ -138,7 +53,6 @@ geneStrToColor <- function(gene, flower = "Rose") {
 geneToColor <- function(gene, flower = "Rose") {
   if(is.character(gene)) geneStrToColor(gene, flower) else geneListToColor(gene, flower)
 }
-
 
 
 #Function to breed two sets of flowers together and return resulting combinations
@@ -314,10 +228,12 @@ for(i in seq_along(allPossibleGenes)) {
   
   #all other breedable combos with unique colors
   #note: this filters non unique combos.
+  #XXX CHANGE BETWEEN THIS AND THE COMMENTED LINE TO SWICH TO AMBIGUOUS VS UNAMBIGUOUS SEARCH
   allCombosWithGene <- knownBreedList[(Parent1 == nextGene | Parent2 == nextGene) & ChildGene != nextGene & ColorIsUnique == T] #unambig
-  #allCombosWithGene <- knownBreedList[(Parent1 == nextGene | Parent2 == nextGene) & ChildGene != nextGene] #ambig
-  allCombosWithGene[, otherGene := ifelse(Parent1 == nextGene, Parent2, Parent1)]
+  # allCombosWithGene <- knownBreedList[(Parent1 == nextGene | Parent2 == nextGene) & ChildGene != nextGene] #ambig
   
+  
+  allCombosWithGene[, otherGene := ifelse(Parent1 == nextGene, Parent2, Parent1)]
   #filter down to unique other genes we know how to make
   uniqueKnownOthers <- pathfindTable[unique(allCombosWithGene$otherGene)][visited == TRUE, gene]
   
@@ -460,7 +376,7 @@ plot(g, layout=lay, vertex.label=c(geneGraphData$gene, "SEED"), vertex.size=30)
 id <- tkplot(g, layout=lay, vertex.label=c(geneGraphData$gene, "SEED"), vertex.size=30)
 
 #### #print out all breeds to a file.
-bigString <- "All ACNH rose gene ambiguous paths starting from seeds.\nOutput from script authored by Michael Walker (mwalk10@gmail.com)\n\n"
+bigString <- "All ACNH rose gene unambiguous paths starting from seeds.\nOutput from script authored by Michael Walker (mwalk10@gmail.com)\n\n"
 for(geneNum in 1:nrow(pathfindTable)) {
   genePathInfo <- pathfindTable[geneNum, ]
   print(genePathInfo)
@@ -471,4 +387,4 @@ for(geneNum in 1:nrow(pathfindTable)) {
   }
   #cat(bigString)
 }
-write(bigString, "E:/Data/My Documents/R Scripts/ACNH All Flower Paths.txt")
+write(bigString, "Output/ACNH All Flower Paths Unambiguous.txt")
